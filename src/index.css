@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Lato:wght@300&family=Montserrat:wght@300&family=Poppins:wght@300;600;800&family=Quicksand:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --bg-dark:#1D1C1C;
+    --light:#D8D8D8;
+    --bg-light:#FF9D00;
+    --dim:rgba(202, 202, 202, 0.068);
+  
+}
+
+@font-face {
+    font-family: 'font';
+    src: url(font/font.ttf);
+    font-weight: bold;
+}
+
+.fa-bars {
+    display: none;
+}
+
+.load-text {
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--light);
+    font-family: 'font';
+    overflow-x: hidden;
+    
+}
+
+.fa-npm {
+    font-size: 2em;
+    color: var(--dim);
+    position: absolute;
+    top:1;
+    left: 4em;
+}
+
+.fa-yarn {
+    font-size: 2em;
+    color: var(--dim);
+    position: absolute;
+    bottom:1em;
+    right: 5em;
+}
+
+.fa-react {
+    font-size: 2em;
+    color: var(--dim);
+    position: absolute;
+    top: 2em;
+}
+
+.fa-css3-alt {
+    font-size: 2em;
+    color: var(--dim);
+    position: absolute;
+   
+}
+
+.ui {
+   
+    
+    font-family: 'poppins';
+    font-weight: 700;
+    position: absolute;
+    top: 2em;
+    color: rgba(202, 202, 202, 0.068);
+    font-size: 4em;
+
+}
+
+.frontend {
+    font-family: 'poppins';
+    font-weight: 700;
+    position: absolute;
+    bottom: 2em;
+    color: rgba(202, 202, 202, 0.068);
+    font-size: 4em;
+    left: 2em;
+}
+
+.title {
+    color: var(--bg-light);
+    font-weight: bold;
+    font-size: 2em;
+
+}
+
+.title::after {
+    content: "";
+    padding:1px 4em;
+    background: var(--bg-light);
+    width: 8em;
+    font-size: 3px;
+    margin-left: 3em;
+}
+
+.headline {
+    color: var(--light);
+    font-size: 3em;
+    font-weight: 500;
+
+
+}
+
+.headline h3 {
+    color: var(--bg-light);
+    font-size: 4em;
+    font-weight: bolder;
+
+}
+
+
+
+.intro {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro h5 {
+    color: var(--bg-light);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.icons ul li {
+    
+    font-size: 1.5em;
+}
+
+.portfolio .portfolio-tasks {
+    font-size: 1.2em;
+}
+/* 
+
+for large screens */
+@media (min-width: 768px) {
+    .headline {
+        margin: 0.5em 0;
+        max-width: 768px;
+        line-height: 2;
+    }
+    .headline h1 {
+        color: var(--light);
+        font-size:1.2em;
+        font-weight: 600;
+        font-family: Poppins;
+    
+    }
+
+    .ui {
+        font-size: 5em;
+    }
+
+    .frontend {
+        font-size: 7em;
+    }
+    
+   
+}
+
+/* //style the loader */
+
+.loader {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    z-index: 9999;
+    
+
+}
+
+
+.loader .loader-text {
+    font-size: 2em;
+}
+
+.project_name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.details > p {
+    font-size: 1.5em;
+}
+
+.details {
+    margin:3em 0;
+}
+
+.mrg {
+    margin-top: 3em;
+}
+
+.text-detail {
+    font-size: 1.2em;
+}
+
+.introduction {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 1.5em 0;
+    padding-right: 10em;
+    font-family: 'quicksand', sans-serif;
+   
+}
+
+.collabo {
+    margin-top: 2em;
+}
+/* for small screens */
+@media  screen and (max-width:670px) {
+        .fa-bars {
+            display: block;
+        }
+
+        .hide {
+            color: var(--light);
+        }
+        .headline h1 {
+            font-weight: bold;
+        }
+
+        .tasks .img {
+            width: 100%;
+            display:none;
+        }
+
+        .details > p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        
+        .introduction {
+            padding-right: 0;
+        }
+
+        .portfolio .portfolio-tasks {
+            font-size: 1em;
+        }
+
+        .headline_intro {
+            margin-bottom: 1em;
+        }
+
+        .fa-npm {
+    font-size: 2em;
+    color: var(--dim);
+    position: absolute;
+    top:1;
+    left: 4em;
+}
+
+.fa-yarn {
+    font-size: 2em;
+    color: var(--dim);
+    position: absolute;
+    bottom:1em;
+    left: 5em;
+}
+
+.fa-react {
+    font-size: 2em;
+    color: var(--dim);
+    position: absolute;
+    top:3em;
+    left: 2em;
+}
+
+.fa-css3-alt {
+    font-size: 2em;
+    color: var(--dim);
+    position: absolute;
+    top:0;
+    left: 4em;
+}
+}

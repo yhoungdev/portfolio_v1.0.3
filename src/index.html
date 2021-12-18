@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="manifest" href="manifest.json">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/brands.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/solid.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/fontawesome.css">
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/regular.css">
+    <script src='../node_modules/@fortawesome/fontawesome-free/js/all.js'></script>
+    <script src='../node_modules/@fortawesome/fontawesome-free/js/brands.js'></script>
+    <script src='../node_modules/@fortawesome/fontawesome-free/js/solid.js'></script>
+    <script src='../node_modules/@fortawesome/fontawesome-free/js/fontawesome.js'></script>
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+          // Use the window load event to keep the page load performant
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+          });
+        }
+        </script>
+    <title>Obiabo's Profile</title>
+</head>
+<body>
+
+    <div class="loader ">
+
+        <div>
+            <h1 class='ui'>
+                <i class="fab fa-figma"></i>
+            </h1>
+    
+            <div class="container loader-inner">
+    
+                <center>
+                    <div class="loader-text">
+                       <h3 class="text-muted load-text">
+                       
+                         Frontend Developer | UI|UX Designer | Open Source Contributor
+                       </h3>
+                    </div>
+                    <div class="spin text-warm">
+                        <h1 class="fas fa-spinner fa-spin"></h1>
+                    </div>
+                </center>
+    
+            </div>
+        </div>
+
+        <h1 class='frontend'>
+            <i class="fab fa-github"></i>
+        </h1>
+
+        
+            <h1><i class="fab fa-npm"></i></h1>
+       
+
+      
+            <h1><i class="fab fa-yarn"></i></h1>
+        
+
+       
+            <h1><i class="fab fa-react"></i></h1>
+       
+
+       
+            <h1><i class="fab fa-css3-alt"></i></h1>
+        
+
+        
+
+    </div>
+    
+    <header class='container pt-4' >
+
+        <div class=" flex justify-between ">
+            <div class="logo mt-4">
+                <img src="./assets/logo.png" alt="" width="50%">
+            </div>
+
+           
+
+        </div>
+
+    </header>
+
+    <!-- hero session -->
+
+    <div class="container intro ">
+
+        <div class="ui">
+            <i class="fab fa-figma"></i>
+        </div>
+
+        <h1><i class="fab fa-npm"></i></h1>
+
+        <h1><i class="fab fa-yarn"></i></h1>
+
+        <div class="div ">
+            <center>
+                <div class="profile-image w-100 mx-auto">
+                    <img src="./assets/memoji.png" alt="" width="100px">
+                </div>
+            </center>
+            <center>
+                <h5 class='mt-3 mb-3'>Hi, I am Obiabo 👋 </h5>
+            </center>
+
+            <center>
+
+                <div class=" headline">
+                    <h1 class='headline_intro'>
+                        Building digital Products, Brands and Experience
+                    </h1>
+                </div>
+
+                <div class="icons ">
+                   <ul class="inline-flex">
+                       <li> <a href="https://github.com/yhoungdev" class='hover:text-github'><i class="fab fa-github"></i></a></li>
+                        <li class='ml-10'><a href="https://www.linkedin.com/in/yhoungdev/" class='hover:text-linkedin' ><i class="fab fa-linkedin" ></i></a></li>
+                        <li class='ml-10'><a href="https://www.behance.net/in/yhoungdev/" class='hover:text-behance'><i class="fab fa-behance" ></i></a></li>
+                        <li class='ml-10'><a href="https://dribbble.com/obiabo" class='hover:text-dribbble'><i class="fab fa-dribbble "></i></a></li>
+
+                      
+                   </ul>
+                </div>
+
+                <button class='px-14 py-5 rounded bg-cool text-black-500 hover:bg-warm'>
+                    <a href="mailto:yhoungdev@gmail.com" target="_blank">Contact Me</a>    
+                </button>
+
+            </center>
+
+        </div>
+
+    </div>
+
+    <!--session ends here-->
+
+    <section class='about'>
+        <div class="container">
+            <h4 class="title">About Me</h4>
+
+            <div class="introduction text-muted text-detail">
+                <p>
+                    I am Ejeh Obiabo Emmanuel a UI/UX Designer and Frontend Developer. 
+                    I am a self taught Frontend Developer, who is passionate about building 
+                    products that solve real world problems. 
+                    I have a keen interest in building products that are user
+                    friendly and easy to use.
+                </p>
+
+                <div class="div">
+                    <button class='px-14 py-5 rounded bg-cool text-black-500 hover:bg-warm'>
+                        <a href="https://drive.google.com/file/d/1b4zj7rpFEMx6FaUWZc-g7alyttit6yVl/view?usp=sharing"> My Resume</a>    
+                    </button>
+                </div>
+               
+
+            </div>
+        </div>
+    </section>
+
+    <div class="portfolio">
+
+        <div class="container">
+
+
+            <h3 class="title">
+                Stuffs i have buit
+            </h3>
+
+            <div class="portfolio-tasks">
+
+                <p class='text-muted introduction'>
+                    This are some of the public things i have built for both personal and business purposes, just check it out
+                    
+                </p>
+
+            </div>
+
+            <div class="container projects row">
+
+               
+
+                <div class=" col-lg-6 md-6 mrg">
+
+                    <div class="img">
+                        <img src="./assets/portfolio/healing_stream.png" alt="" width='100%'>
+                    </div>
+
+                    <div class="details">
+                        <h5 class="text-warm name project_name">Pastor Christ Healing Stream</h5>
+                        <p class='text-muted'> This is a website redesign for the Pastor Christ Oyakilomeh healing stream </p>
+                        <h5>Live URL</h5>
+                    </div>
+
+                </div>     
+
+                <div class="col-lg-6 col-md-6 mrg ">
+
+                    <div class="img">
+                        <img src="./assets/portfolio/ghk.png" alt="" width='100%'>
+                    </div>
+
+                    <div class="details">
+                        <h5 class="text-warm name project_name ">GHK Express</h5>
+                        <p class='text-muted'>Web design for a world wide percel delivery company to deliver goods  </p>
+                        <h5><a href="https://ghk-express.vercel.app/" target='_blankn'> Live Preview</a></h5>
+                    </div>
+
+                </div>    
+
+
+
+
+
+                
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mrg ">
+
+                    <div class="img">
+                        <img src="./assets/portfolio/pick.png" alt="" width='100%'>
+                    </div>
+
+                    <div class="details">
+                        <h5 class="text-warm name project_name">Pick 'N' Pay</h5>
+                        <p class='text-muted'>Webpage redesign for a shopping company named Pick N Pay ?</p>
+                        <h5><a href="https://pick-n-pay-eight.vercel.app/" target="_blank">Live Preview</a></h5>
+                    </div>
+
+                </div>    
+
+                <div class="col-lg-6 col-md-6 mrg ">
+
+                    <div class="img">
+                        <img src="./assets/portfolio/endsars.png" alt="" width='100%'>
+                    </div>
+
+                    <div class="details">
+                        <h5 class="text-warm name project_name">20<sup>th</sup> October, 2020</h5>
+                        <p class='text-muted'> Page design to pay tribute to EndSars Victims killed at Lekki Toll gate </p>
+                        <h5><a href="https://20-10-2020.vercel.app/" target="_blank">Live Preview</a></h5>
+                    </div>
+
+                </div>    
+            </div>
+
+            <center>
+                <div class="more mt-4">
+                    <button class='px-14 py-5 mt-2 rounded bg-cool text-black-500 hover:bg-warm'><a href="https://github.com/yhoungdev">View More</a> </button>
+                    <button class='px-14 py-5 mt-2 rounded border border-cool '><a href="https://www.behance.net/yhoungdev">View UI Projects</a> </button>
+                </div>
+            </center>
+
+            <div class="collabo">
+                <h5 class="title">Let's Collaborate</h5>
+                <div class="cola">
+                    <p class='introduction text-muted'>I have collaborated with awesome developers to build and create solutions for real life problems  </p>
+                    <p class='introduction text-muted'>Feel free to get in touch with me if you have any Job on frontend | UI/UX Design</p>
+                    
+                </div>
+
+                <ul class="inline-flex">
+                    <li> <h4><a href="https://twitter.com/obiabo_immanuel" class='hover:text-github'><i class="fab fa-twitter"></i></a></h4></li>
+                     <li class='ml-10'><h4><a href="https://www.linkedin.com/in/obiabo-immanuel-5a66371aa/" class='hover:text-linkedin' ><i class="fab fa-linkedin" ></i></a></h4></li>
+                     <li class='ml-10'><h4><a href="https://web.facebook.com/yhoung.dev" class='hover:text-twiiter'><i class="fab fa-facebook" ></i></a></h4></li>
+                     <li class='ml-10'><h4><a href="https://www.instagram.com/obiabo_immanuel/" class='hover:text-dribbble'><i class="fab fa-instagram "></i></a></h4></li>
+                     <li class='ml-10'><h4><a href="tel:08134044405" class='hover:text-dribbble'><i class="fa fa-phone "></i></a></h4></li>
+                   
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+<script src='./index.js'></script>
+</body>
+</html>
